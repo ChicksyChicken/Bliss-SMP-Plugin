@@ -1,0 +1,19 @@
+name: Bliss-SMP-Plugin
+version: '1.0-SNAPSHOT'
+main: io.papermc.blisssmp.BlissSMPPlugin
+api-version: '1.21'
+load: STARTUP
+authors: [ MerryChickens -- Discord is hotchickens2_23089 ]
+description: This is a complete remake for the Bliss SMP Plugin, as the 1.21 version needs premium version of one of the dependencies, which is 20 dollars. Please don't judge, as this isn't even using the custom items plugin.
+website: https://discord.gg/8bprtEMr9N
+commands:
+  bliss:
+    description: Main command for BlissSMP plugin
+    usage: /bliss <subcommand>
+    permission: blisssmp.admin
+    permission-message: You don't have permission to use this command!
+
+permissions:
+  blisssmp.admin:
+    description: Gives access to all BlissSMP admin commands
+    default: op

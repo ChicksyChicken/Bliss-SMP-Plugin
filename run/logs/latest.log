@@ -1,0 +1,96 @@
+[17:16:45] [ServerMain/INFO]: [bootstrap] Running Java 21 (Java HotSpot(TM) 64-Bit Server VM 21.0.6+8-LTS-188; Oracle Corporation null) on Windows 11 10.0 (amd64)
+[17:16:45] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21-130-master@b1b5d4c (2024-08-10T10:02:42Z) for Minecraft 1.21
+[17:16:46] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[17:16:46] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'C:\Users\zacka\Documents\Bliss-SMP-Plugin\build\libs\Bliss-SMP-Plugin-1.0-SNAPSHOT-all.jar'...
+[17:16:49] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'C:\Users\zacka\Documents\Bliss-SMP-Plugin\build\libs\Bliss-SMP-Plugin-1.0-SNAPSHOT-all.jar' in 2476ms.
+[17:16:49] [ServerMain/INFO]: [PluginInitializerManager] Initialized 1 plugin
+[17:16:49] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (1):
+ - Bliss-SMP-Plugin (1.0-SNAPSHOT)
+[17:16:57] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[17:17:02] [ServerMain/INFO]: Loaded 1290 recipes
+[17:17:02] [ServerMain/INFO]: Loaded 1399 advancements
+[17:17:03] [Server thread/INFO]: Starting minecraft server version 1.21
+[17:17:03] [Server thread/INFO]: Loading properties
+[17:17:03] [Server thread/INFO]: This server is running Paper version 1.21-130-master@b1b5d4c (2024-08-10T10:02:42Z) (Implementing API version 1.21-R0.1-SNAPSHOT)
+[17:17:04] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[17:17:04] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[17:17:04] [Server thread/INFO]: Using 4 threads for Netty based IO
+[17:17:05] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 3 worker threads, and population gen parallelism of 3 threads
+[17:17:05] [Server thread/INFO]: Default game type: SURVIVAL
+[17:17:05] [Server thread/INFO]: Generating keypair
+[17:17:05] [Server thread/INFO]: Starting Minecraft server on *:25565
+[17:17:05] [Server thread/INFO]: Using default channel type
+[17:17:05] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[17:17:05] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[17:17:06] [Server thread/INFO]: [Bliss-SMP-Plugin] Loading server plugin Bliss-SMP-Plugin v1.0-SNAPSHOT
+[17:17:06] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[17:17:06] [Server thread/INFO]: [Bliss-SMP-Plugin] Enabling Bliss-SMP-Plugin v1.0-SNAPSHOT
+[17:17:09] [Server thread/INFO]: [Bliss-SMP-Plugin] BlissSMP Plugin has been enabled!
+[17:17:09] [Server thread/INFO]: [Bliss-SMP-Plugin] Registered Trader and RepairKit recipes!
+[17:17:09] [Server thread/INFO]: Preparing level "world"
+[17:17:10] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[17:17:14] [Server thread/INFO]: Time elapsed: 4115 ms
+[17:17:14] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[17:17:14] [Server thread/INFO]: Time elapsed: 441 ms
+[17:17:14] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[17:17:14] [Server thread/INFO]: Time elapsed: 125 ms
+[17:17:14] [Server thread/INFO]: [spark] Starting background profiler...
+[17:17:14] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows11/amd64), so the built-in Java engine will be used instead.
+[17:17:14] [Server thread/INFO]: Done preparing level "world" (5.713s)
+[17:17:14] [Server thread/INFO]: Running delayed init tasks
+[17:17:14] [Server thread/INFO]: Done (31.476s)! For help, type "help"
+[17:17:14] [Server thread/INFO]: Timings Reset
+[17:17:42] [User Authenticator #0/INFO]: UUID of player MerryChickens is 063f0399-350e-4589-bf1e-82242191bd29
+[17:17:43] [Server thread/INFO]: MerryChickens joined the game
+[17:17:43] [Server thread/INFO]: MerryChickens[/127.0.0.1:55966] logged in with entity id 138 at ([world]-30.30000001192093, 81.44162864000555, -403.34006244408266)
+[17:17:55] [Server thread/INFO]: MerryChickens issued server command: /bliss give MerryChickens puff_gem
+[17:18:03] [Server thread/INFO]: MerryChickens issued server command: /gms
+[17:18:05] [Server thread/INFO]: MerryChickens issued server command: /gamemode survival
+[17:18:05] [Server thread/INFO]: [MerryChickens: Set own game mode to Survival Mode]
+[17:18:25] [Async Chat Thread - #1/INFO]: <MerryChickens> when u die
+[17:18:26] [Server thread/INFO]: MerryChickens issued server command: /kill
+[17:18:26] [Server thread/INFO]: MerryChickens was killed
+[17:18:26] [Server thread/INFO]: [MerryChickens: Killed MerryChickens]
+[17:18:31] [Async Chat Thread - #1/INFO]: <MerryChickens> lose a life
+[17:18:35] [Server thread/INFO]: MerryChickens issued server command: /gamemode creative
+[17:18:35] [Server thread/INFO]: [MerryChickens: Set own game mode to Creative Mode]
+[17:18:39] [Async Chat Thread - #1/INFO]: <MerryChickens> and uh
+[17:18:52] [Async Chat Thread - #1/INFO]: <MerryChickens> its not basic but is boring
+[17:19:08] [Async Chat Thread - #1/INFO]: <MerryChickens> yea I didnt know that so I just recoded my own lol
+[17:19:22] [Server thread/INFO]: MerryChickens issued server command: /bliss give MerryChickens wealth_gem
+[17:19:30] [Server thread/INFO]: MerryChickens issued server command: /bliss give MerryChickens astra_gem
+[17:19:33] [Server thread/INFO]: MerryChickens issued server command: /bliss give MerryChickens strength_gem
+[17:19:35] [Server thread/INFO]: MerryChickens issued server command: /bliss give MerryChickens speed_gem
+[17:20:10] [Server thread/INFO]: MerryChickens issued server command: /bliss give MerryChickens fire_gem
+[17:20:12] [Server thread/INFO]: MerryChickens issued server command: /bliss give MerryChickens
+[17:20:15] [Server thread/INFO]: MerryChickens issued server command: /bliss give MerryChickens a
+[17:20:18] [Server thread/INFO]: MerryChickens issued server command: /bliss give MerryChickens flux_gem
+[17:20:58] [Server thread/INFO]: MerryChickens issued server command: /clear MerryChickens
+[17:20:58] [Server thread/INFO]: [MerryChickens: Removed 7 item(s) from player MerryChickens]
+[17:21:08] [Server thread/INFO]: MerryChickens lost connection: Disconnected
+[17:21:08] [Server thread/INFO]: MerryChickens left the game
+[17:21:15] [Server thread/INFO]: Stopping the server
+[17:21:15] [Server thread/INFO]: Stopping server
+[17:21:15] [Server thread/INFO]: [Bliss-SMP-Plugin] Disabling Bliss-SMP-Plugin v1.0-SNAPSHOT
+[17:21:15] [Server thread/INFO]: [Bliss-SMP-Plugin] BlissSMP Plugin has been disabled!
+[17:21:15] [Server thread/INFO]: Saving players
+[17:21:15] [Server thread/INFO]: Saving worlds
+[17:21:15] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[17:21:15] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[17:21:15] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[17:21:15] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[17:21:16] [Server thread/INFO]: [ChunkHolderManager] Saved 702 block chunks, 702 entity chunks, 0 poi chunks in world 'world' in 1.68s
+[17:21:16] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[17:21:16] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[17:21:16] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[17:21:16] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[17:21:17] [Server thread/INFO]: [ChunkHolderManager] Saved 49 block chunks, 49 entity chunks, 0 poi chunks in world 'world_nether' in 0.17s
+[17:21:17] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[17:21:17] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[17:21:17] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[17:21:17] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[17:21:17] [Server thread/INFO]: [ChunkHolderManager] Saved 49 block chunks, 49 entity chunks, 0 poi chunks in world 'world_the_end' in 0.05s
+[17:21:17] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[17:21:17] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[17:21:17] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[17:21:17] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
